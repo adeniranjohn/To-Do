@@ -1,0 +1,67 @@
+body {
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    background-color: #c7c8a9;
+    color: #b60906;
+    margin: 20px;
+
+}
+
+body article {
+    margin: 0 auto;
+
+}
+
+header {
+    text-align: center;
+    color: rgba(129, 04, 12, 0.5);
+    font-size: 4rem;
+}
+
+
+article {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+div#input input {
+
+    border: 2px solid #ef4666;
+    font: 25px Georgia;
+    padding: 0.5em;
+    width: 50%;
+    margin: 5px;
+    color: #069655;
+}
+
+div#input button {
+    border: 2px solid #ef4666;
+    font: 25px Georgia;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #6ab694;
+    color: #b60906;
+}
+
+
+div#input button:hover {
+    color: #069655;
+    background-color: #b60906;
+
+}
+
+div#lists {
+    font-size: 2em;
+
+}
+
+div.todo {
+    border: #069655 2px solid;
+    margin: 5px;
+    padding: 0.3em;
+    display: block;
+
+}
+
+
